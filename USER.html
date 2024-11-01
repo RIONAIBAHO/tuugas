@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-sclae=1.0"/>
+    <title>Users</title>
+    <style>body{background-color: lightcyan;}
+    fieldset {background-color:blanchedalmond}
+    button {margin: 10px;}
+   
+
+    </style>
+   </head>
+   <body>
+        <u><h1 align="Center">Daftar Akun Baru</h1></u>
+    <form action="#">
+        <fieldset style="width: 50%; margin-left: auto; margin-right: auto;">
+            <legend align="Center">Akun</legend>
+            <table align="Center">
+                <tr>
+                    <td><label for="uname">Username:</label></td>
+                    <td><input type="text" id="uname" name="username" rows="2" cols="20" required placeholder="isi username"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" id="password" name="password" required placeholder="isi Password"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="ttl">Tanggal Lahir:</label></td>
+                    <td><input input type="date" id="ttl" name="ttl"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Konfirmasi Password</label></td>
+                    <td><input type="password" id="password" name="password" required placeholder="isi ulang Password"></td>
+            </table>
+        </fieldset>
+    </form>
+
+    <form action="#">
+        <fieldset style="width: 60%; margin-left: auto; margin-right: auto;">
+            <legend align="Center">Data</legend>
+            <table align="Center">
+                <tr>
+                    <td><for="U">Nama:</label></td>
+                    <td><textarea input type="text" id="u" name="Nama"rows="2" cols="20" required placeholder="isi Nama"></textarea></td>
+                </tr>
+
+                <tr>                    
+                    <td><label for="gender">Jenis Kelamin</label></td>
+                    <th><input type="radio"name="gender">Perempuan</th>
+                    <th><input type="radio"name="gender">Pria</th>
+                </tr>
+
+                <tr>
+                    <td><label for="fav">Informasi yang Disukai</label></td>
+                    <th><input type="checkbox" name="f" value="olahraga"/>Olahraga</th>
+                    <th><input type="checkbox" name="a" value="Travelling"/>Travelling</th>
+                    <th><input type="checkbox" name="x" value="Gaming"/>Gaming</th>
+                    <th><input type="checkbox" name="c" value="berenang">berenang</th>
+                <tr>
+                    <td>Fakultas</td>
+                    <td><select name="Fakultas">
+                        <option value="Opsi">--Pilih Fakultas--</option>
+                        <option value="FK">Fakultas Kedokteran</option>
+                        <option value="FH">Fakultas Hukum</option>
+                        <option value="FP">Fakultas Pertanian</option>
+                        <option value="FT">Fakultas Teknik</option>
+                        <option value="FEB">Fakultas Ekonomi dan Bisnis</option>
+                        <option value="FKG">Fakultas Kedokteran Gigi</option>
+                        <option value="FIB">Fakultas Ilmu Budaya</option>
+                        <option value="FASILKOM">Fakultas Ilmu komputer dan Teknologi Informasi</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="alamat">Alamat</label></td>
+                    <td><textarea  input type="alamat" id="alamat" rows="5" cols="20" required placeholder="Isi Alamat Disini"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><button style="background-color: rgb(255, 0, 0);" align="Center" input type="reset" value="all">Reset</button></td>
+                </tr>
+            </table>
+        </fieldset>
+        <table align="Center">
+            <tr>
+                <td><button style="background-color: rgb(0, 251, 0);" align="center" input type="submit" value="all">Daftar</button></td>
+            </tr>
+        </table>
+    </form>
+   </body>
